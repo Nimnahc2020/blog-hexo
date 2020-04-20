@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "hexo-asset-image": "git+https://github.com/CodeFalling/hexo-asset-image.git",
+    "hexo-generator-index-pin-top": "^0.2.2",
     "hexo-generator-search": "^2.4.0",
     "hexo-generator-searchdb": "^1.3.0",
     "hexo-reference": "^1.0.4",
