@@ -15,10 +15,8 @@ tags:
 categories: blog
 ---
 添加的hugo-notice插件效果如下：
-
-![代码截图](hugo-notice/hexo-notice.png "截图")
-
 <!-- more -->
+![代码截图](hugo-notice/notice.png "效果")
 
 接下来就是展现添加这款插件的方法了！
 
