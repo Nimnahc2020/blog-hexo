@@ -592,7 +592,7 @@ vkontakte_api:
 # To get your ID visit https://widgetpack.com
 rating:
   enable: true
-  id: 0ec2063d40a80cb103bf2919852e075fef5bfb2106f2822f22c0433a3299bbb3    #<app_id>
+  id: 24705    #<app_id>
   color: ff9800
 # ---------------------------------------------------------------
 

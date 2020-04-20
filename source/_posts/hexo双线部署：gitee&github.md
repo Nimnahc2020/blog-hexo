@@ -1,6 +1,6 @@
 ---
 title: hexo双线部署：gitee&github
-top: 4
+top: false
 essential: true
 cover: false
 toc: true

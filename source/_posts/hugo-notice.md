@@ -1,6 +1,6 @@
 ---
 title: 添加插件hugo-notice
-top: 3
+top: false
 essential: true
 dropCap: false
 cover: false
