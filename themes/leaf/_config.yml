@@ -35,7 +35,7 @@ favicon:
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo个人博客,NexT美化优化,哈林摇,Mac Panel特效,Leaf,北宸,Java程序员,北京,旅行,摄像,Github Pages,搭建教程,demo,博客相册,文章排行榜,网站SEO"
+keywords: ""
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -109,7 +109,7 @@ menu:
   archives: /archives/ || archive
   categories: /categories/ || th
   tags: /tags/ || tags
-#  life: /life/ || apple
+  life: https://crcrc.me/photos/ || apple
 #  movies: /movies/ || film
 #  xiaohutong: /xiaohutong || map
 #  sitemap: /sitemap.xml || sitemap
@@ -177,14 +177,26 @@ links:
   #daovoice: http://www.daovoice.io/
 
 mylinks:
-- nickname: 北宸的博客  #友链名称
-  avatar: https://leafjame.github.io/images/beichen.png  #友链头像
-  site: https://leafjame.github.io  #友链地址
-  info: 因心造境，风云由我！  #友链说明
+- nickname: reuixiy  #友链名称
+  avatar: https://crcrc.me/images/%e5%8f%8b%e9%93%be/reuixiy.png  #友链头像
+  site: https://io-oi.me/  #友链地址
+  info: VIVA IA VIDA  #友链说明
+  weight: 1
 - nickname: 北宸的博客
   avatar: https://leafjame.github.io/images/beichen.png
   site: https://leafjame.github.io
   info: 因心造境，风云由我！
+  weight: 2
+- nickname: 荷戟独彷徨
+  avatar: https://crcrc.me/images/%e5%8f%8b%e9%93%be/guanqr.png
+  site: https://guanqr.com/
+  info: The Sound of Silence！
+  weight: 3
+- nickname: ruchan
+  avatar: /images/ruchan.png
+  site: https://crcrc.me/
+  info: Just go！
+  weight: 4
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -421,9 +433,9 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid: XXXXXXXX # your leancloud application appid
-  appkey: XXXXXXXX # your leancloud application appkey
+  enable: true
+  appid: F2R8QDDOUsr5PlPLO8trlvdS-gzGzoHsz # your leancloud application appid
+  appkey: tyoEdiU6mlCJnsVxay3pDkpL # your leancloud application appkey
   notify: false # mail notifier: https://valine.js.org/notify.html # 20190903使用Valine-Admin：参考 https://deserts.io/valine-admin-document/
   verify: false # Verification code //使用Valine-Admin
   placeholder: '&#x270d;&nbsp;写评论'  # comment box placeholder
@@ -579,9 +591,9 @@ vkontakte_api:
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
-  enable: false
-  id:     #<app_id>
-  color: 
+  enable: true
+  id: 0ec2063d40a80cb103bf2919852e075fef5bfb2106f2822f22c0433a3299bbb3    #<app_id>
+  color: ff9800
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -894,7 +906,7 @@ passage_end_tag:
 cursor_effect:
   enabled: true
   # fireworks：礼花 | explosion：爆炸 | love：浮出爱心 | text：浮出文字
-  type: love
+  type: fireworks
 
 # typing effect 打字特效
 typing_effect:
@@ -1010,19 +1022,19 @@ carousel:
   enable: true
   item: [
     {
-      'link': 'https://leaface.netlify.com',
+      'link': 'https://crcrc.me',
       'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/knowledge.png'
     },
     {
-      'link': 'https://www.liaofuzhan.com/posts/507826828.html',
+      'link': 'https://crcrc.me',
       'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/mobile.png'
     },
     {
-      'link': 'https://mailchi.mp/e92415d27722/leaf',
+      'link': 'https://crcrc.me',
       'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/subscribe.png'
     },
     {
-      'link': 'https://github.com/leafjame/hexo-theme-next5-leaf',
+      'link': 'https://crcrc.me',
       'img': 'https://cdn.jsdelivr.net/gh/leafjame/cdn/img/carousel/share.png'
     },
     {

@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -99,3 +99,10 @@ theme: leaf
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+# Search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
