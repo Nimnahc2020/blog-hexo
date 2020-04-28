@@ -11,6 +11,7 @@ menu:
   top: 热榜
   archives: 归档
   movies: 电影
+  books: 阅读
   categories: 分类
   tags: 标签
   about: 关于
@@ -21,6 +22,7 @@ menu:
   sitemap: 站点地图
   commonweal: 公益404
   links: 友链
+  mainsite: 小站
 
 sidebar:
   overview: 站点概览

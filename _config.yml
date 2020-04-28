@@ -106,3 +106,18 @@ search:
   field: post
   format: html
   limit: 10000
+
+#豆瓣
+douban:
+  user: 215992025
+  builtin: true
+  book:
+    title: '阅读'
+    quote: '书中自有黄金屋'
+  movie:
+    title: '观影'
+    quote: '观影体悟人生'
+#  game:
+#    title: 'This is my game title'
+#    quote: 'This is my game quote'
+  timeout: 10000

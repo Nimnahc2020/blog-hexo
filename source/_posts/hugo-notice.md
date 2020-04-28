@@ -12,7 +12,7 @@ summary: hugo插件
 tags: 
   - Hugo
   - Blog
-categories: blog
+categories: Blog
 ---
 添加的hugo-notice插件效果如下：
 <!-- more -->

@@ -109,7 +109,10 @@ menu:
   archives: /archives/ || archive
   categories: /categories/ || th
   tags: /tags/ || tags
-  life: https://crcrc.me/photos/ || apple
+  movies: /movies/ || film
+  books: /books/ || book
+  mainsite: https://crcrc.me/photos/ || moon-o
+  
 #  movies: /movies/ || film
 #  xiaohutong: /xiaohutong || map
 #  sitemap: /sitemap.xml || sitemap
