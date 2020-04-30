@@ -9,7 +9,7 @@ comments: false
 .MyGrid{
  width:100%;
  max-width:1040px;
- margin:0;
+ margin:auto;
  text-align:center
 }
 .card{
@@ -17,7 +17,7 @@ comments: false
  transition:.3s ease-in-out;
  border-radius:8px;
  background-color:#efefef;
- padding:20px
+ padding:10px
 }
 .ImageInCard img
 {padding:0;border-radius:8px
