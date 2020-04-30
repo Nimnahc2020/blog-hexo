@@ -15,7 +15,7 @@
       <!-- 球型气泡标签云 -->
       <script type="text/javascript" src="/js/src/bubble.js"></script>
   {% endif %}
-
+	
   {% if theme.haoyuePlayer.enable %}
       <!-- haoyuePlayer 播放器，移动端大小适配-->
       <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
@@ -158,6 +158,12 @@
   <!--
   <script type="text/javascript" src="/js/src/crash_cheat.js"></script>
   -->
+
+ {% if page.type ==='picture' %}
+      <!-- 相册 -->
+	<script src="//cdn.jsdelivr.net/npm/minigrid@3.1.1/dist/minigrid.min.js"></script>
+	<script src="/js/mygrid.js"></script>
+ {% endif %}
 
  {% if theme.haoyuePlayer.enable %}
     <script src="https://player.lmih.cn/player/js/player.js" id="myhk" key="{{theme.haoyuePlayer.key}}" m="1"></script>

@@ -12,7 +12,6 @@
 		<!-- 友情链接-->
     {% elif page.type === 'links' and not page.title %}
       {{ __('title.links') + page_title_suffix }}
-
     {% else %}
       {{ page.title + page_title_suffix }}
     {% endif %}

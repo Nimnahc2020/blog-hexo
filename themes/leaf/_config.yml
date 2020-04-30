@@ -112,6 +112,7 @@ menu:
   movies: /movies/ || film
   books: /books/ || book
   mainsite: https://crcrc.me/photos/ || moon-o
+  photos: /photos/ || fas fa-camera-retro
   
 #  movies: /movies/ || film
 #  xiaohutong: /xiaohutong || map
